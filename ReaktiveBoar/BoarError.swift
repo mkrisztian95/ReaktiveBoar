@@ -11,7 +11,7 @@ struct BoarError {
 }
 
 extension BoarError {
-    public static let Domain = "app.timon.reaktiveboar"
+    public static let Domain = "io.reaktiveboar"
 
     public static func err(_ code: Int, userInfo: [String: Any]? = nil) -> NSError {
         return NSError(domain: self.Domain, code: code, userInfo: userInfo)

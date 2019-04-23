@@ -1,5 +1,6 @@
 github "DeclarativeHub/Bond" "7.4.3"
 github "DeclarativeHub/ReactiveKit" "v3.10.0"
 github "Swinject/Swinject" "2.6.0"
-github "Thomvis/BrightFutures" "8.0.0"
+github "Swinject/SwinjectAutoregistration" "2.6.0"
+github "Thomvis/BrightFutures" "8.0.1"
 github "tonyarnold/Differ" "1.4.1"

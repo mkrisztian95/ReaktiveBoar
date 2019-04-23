@@ -4,3 +4,4 @@ github "Thomvis/BrightFutures"
 
 # Dependency injection
 github "Swinject/Swinject"
+github "Swinject/SwinjectAutoregistration"

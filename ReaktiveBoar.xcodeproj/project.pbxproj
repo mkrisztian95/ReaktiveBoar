@@ -18,6 +18,36 @@
 		92AA2509226E12A6006DA15F /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AA2504226E12A6006DA15F /* BrightFutures.framework */; };
 		92AA250A226E12A6006DA15F /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AA2505226E12A6006DA15F /* Differ.framework */; };
 		92AA250B226E12A6006DA15F /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AA2506226E12A6006DA15F /* Swinject.framework */; };
+		92AA2513226F1DAA006DA15F /* SelfAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA250F226F1DAA006DA15F /* SelfAssembly.swift */; };
+		92AA2514226F1DAA006DA15F /* TypeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2510226F1DAA006DA15F /* TypeProvider.swift */; };
+		92AA2515226F1DAA006DA15F /* VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2511226F1DAA006DA15F /* VM.swift */; };
+		92AA2516226F1DAA006DA15F /* IDVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2512226F1DAA006DA15F /* IDVM.swift */; };
+		92AA251C226F1DE0006DA15F /* CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2518226F1DE0006DA15F /* CollectionDataSource.swift */; };
+		92AA251D226F1DE0006DA15F /* RegInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2519226F1DE0006DA15F /* RegInfo.swift */; };
+		92AA251E226F1DE0006DA15F /* ValueInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA251A226F1DE0006DA15F /* ValueInfo.swift */; };
+		92AA251F226F1DE0006DA15F /* SizeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA251B226F1DE0006DA15F /* SizeInfo.swift */; };
+		92AA2521226F21BE006DA15F /* SwinjectAutoregistration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AA2520226F21BE006DA15F /* SwinjectAutoregistration.framework */; };
+		92AA2524226F21FD006DA15F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2523226F21FD006DA15F /* Router.swift */; };
+		92AA2528226F2227006DA15F /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2526226F2227006DA15F /* UICollectionView.swift */; };
+		92AA2529226F2227006DA15F /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2527226F2227006DA15F /* UICollectionViewCell.swift */; };
+		92AA252C226F224F006DA15F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA252B226F224F006DA15F /* UIViewController.swift */; };
+		92AA252E226F2270006DA15F /* BoarError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA252D226F2270006DA15F /* BoarError.swift */; };
+		92AA2539226F3ED9006DA15F /* SignalProtocol+with.swift.tpl in Resources */ = {isa = PBXBuildFile; fileRef = 92AA2530226F3ED9006DA15F /* SignalProtocol+with.swift.tpl */; };
+		92AA253A226F3ED9006DA15F /* SignalProtocol+call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2531226F3ED9006DA15F /* SignalProtocol+call.swift */; };
+		92AA253B226F3ED9006DA15F /* Collection+Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2532226F3ED9006DA15F /* Collection+Functional.swift */; };
+		92AA253C226F3ED9006DA15F /* SignalProtocol+AdvancedOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2533226F3ED9006DA15F /* SignalProtocol+AdvancedOperators.swift */; };
+		92AA253D226F3ED9006DA15F /* SimpleSignalabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2534226F3ED9006DA15F /* SimpleSignalabe.swift */; };
+		92AA253E226F3ED9006DA15F /* SignalProtocol+with.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2535226F3ED9006DA15F /* SignalProtocol+with.swift */; };
+		92AA253F226F3ED9006DA15F /* PhotoLibrary+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2536226F3ED9006DA15F /* PhotoLibrary+Reactive.swift */; };
+		92AA2540226F3ED9006DA15F /* Future+ReactiveKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2537226F3ED9006DA15F /* Future+ReactiveKit.swift */; };
+		92AA2541226F3ED9006DA15F /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2538226F3ED9006DA15F /* Value.swift */; };
+		92AA2549226F42AE006DA15F /* NSLayoutconstraint+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2544226F42AE006DA15F /* NSLayoutconstraint+Reactive.swift */; };
+		92AA254A226F42AE006DA15F /* UIScrollView+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2545226F42AE006DA15F /* UIScrollView+Reactive.swift */; };
+		92AA254B226F42AE006DA15F /* UILabel+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2546226F42AE006DA15F /* UILabel+Reactive.swift */; };
+		92AA254C226F42AE006DA15F /* UICollectionViewCell+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2547226F42AE006DA15F /* UICollectionViewCell+Reactive.swift */; };
+		92AA254D226F42AE006DA15F /* UIView+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2548226F42AE006DA15F /* UIView+Reactive.swift */; };
+		92AA2551226F42E0006DA15F /* UIScrollView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA254F226F42E0006DA15F /* UIScrollView+Animations.swift */; };
+		92AA2552226F42E0006DA15F /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA2550226F42E0006DA15F /* UIView+Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +75,36 @@
 		92AA2504226E12A6006DA15F /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
 		92AA2505226E12A6006DA15F /* Differ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differ.framework; path = Carthage/Build/iOS/Differ.framework; sourceTree = "<group>"; };
 		92AA2506226E12A6006DA15F /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		92AA250F226F1DAA006DA15F /* SelfAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfAssembly.swift; sourceTree = "<group>"; };
+		92AA2510226F1DAA006DA15F /* TypeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeProvider.swift; sourceTree = "<group>"; };
+		92AA2511226F1DAA006DA15F /* VM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VM.swift; sourceTree = "<group>"; };
+		92AA2512226F1DAA006DA15F /* IDVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDVM.swift; sourceTree = "<group>"; };
+		92AA2518226F1DE0006DA15F /* CollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDataSource.swift; sourceTree = "<group>"; };
+		92AA2519226F1DE0006DA15F /* RegInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegInfo.swift; sourceTree = "<group>"; };
+		92AA251A226F1DE0006DA15F /* ValueInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueInfo.swift; sourceTree = "<group>"; };
+		92AA251B226F1DE0006DA15F /* SizeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeInfo.swift; sourceTree = "<group>"; };
+		92AA2520226F21BE006DA15F /* SwinjectAutoregistration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwinjectAutoregistration.framework; path = Carthage/Build/iOS/SwinjectAutoregistration.framework; sourceTree = "<group>"; };
+		92AA2523226F21FD006DA15F /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		92AA2526226F2227006DA15F /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		92AA2527226F2227006DA15F /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		92AA252B226F224F006DA15F /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		92AA252D226F2270006DA15F /* BoarError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoarError.swift; sourceTree = "<group>"; };
+		92AA2530226F3ED9006DA15F /* SignalProtocol+with.swift.tpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SignalProtocol+with.swift.tpl"; sourceTree = "<group>"; };
+		92AA2531226F3ED9006DA15F /* SignalProtocol+call.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProtocol+call.swift"; sourceTree = "<group>"; };
+		92AA2532226F3ED9006DA15F /* Collection+Functional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Functional.swift"; sourceTree = "<group>"; };
+		92AA2533226F3ED9006DA15F /* SignalProtocol+AdvancedOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProtocol+AdvancedOperators.swift"; sourceTree = "<group>"; };
+		92AA2534226F3ED9006DA15F /* SimpleSignalabe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSignalabe.swift; sourceTree = "<group>"; };
+		92AA2535226F3ED9006DA15F /* SignalProtocol+with.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProtocol+with.swift"; sourceTree = "<group>"; };
+		92AA2536226F3ED9006DA15F /* PhotoLibrary+Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoLibrary+Reactive.swift"; sourceTree = "<group>"; };
+		92AA2537226F3ED9006DA15F /* Future+ReactiveKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Future+ReactiveKit.swift"; sourceTree = "<group>"; };
+		92AA2538226F3ED9006DA15F /* Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		92AA2544226F42AE006DA15F /* NSLayoutconstraint+Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutconstraint+Reactive.swift"; sourceTree = "<group>"; };
+		92AA2545226F42AE006DA15F /* UIScrollView+Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Reactive.swift"; sourceTree = "<group>"; };
+		92AA2546226F42AE006DA15F /* UILabel+Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Reactive.swift"; sourceTree = "<group>"; };
+		92AA2547226F42AE006DA15F /* UICollectionViewCell+Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Reactive.swift"; sourceTree = "<group>"; };
+		92AA2548226F42AE006DA15F /* UIView+Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Reactive.swift"; sourceTree = "<group>"; };
+		92AA254F226F42E0006DA15F /* UIScrollView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Animations.swift"; sourceTree = "<group>"; };
+		92AA2550226F42E0006DA15F /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92AA2521226F21BE006DA15F /* SwinjectAutoregistration.framework in Frameworks */,
 				92AA2507226E12A6006DA15F /* Bond.framework in Frameworks */,
 				92AA2508226E12A6006DA15F /* ReactiveKit.framework in Frameworks */,
 				92AA2509226E12A6006DA15F /* BrightFutures.framework in Frameworks */,
@@ -94,6 +155,9 @@
 		92AA24DE226E01B4006DA15F /* ReaktiveBoar */ = {
 			isa = PBXGroup;
 			children = (
+				92AA252F226F3EBA006DA15F /* Reactive+Advanced */,
+				92AA252D226F2270006DA15F /* BoarError.swift */,
+				92AA250E226F1D8B006DA15F /* MVVM */,
 				92AA24F6226E024D006DA15F /* Helpers */,
 				92AA24DF226E01B4006DA15F /* ReaktiveBoar.h */,
 				92AA24E0226E01B5006DA15F /* Info.plist */,
@@ -122,6 +186,7 @@
 		92AA2501226E12A5006DA15F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92AA2520226F21BE006DA15F /* SwinjectAutoregistration.framework */,
 				92AA2502226E12A5006DA15F /* Bond.framework */,
 				92AA2504226E12A6006DA15F /* BrightFutures.framework */,
 				92AA2505226E12A6006DA15F /* Differ.framework */,
@@ -129,6 +194,96 @@
 				92AA2506226E12A6006DA15F /* Swinject.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92AA250E226F1D8B006DA15F /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				92AA252A226F223D006DA15F /* VC */,
+				92AA2525226F2216006DA15F /* UICollectionView */,
+				92AA2522226F21EB006DA15F /* Router */,
+				92AA2517226F1DC2006DA15F /* DataSource */,
+				92AA2512226F1DAA006DA15F /* IDVM.swift */,
+				92AA250F226F1DAA006DA15F /* SelfAssembly.swift */,
+				92AA2510226F1DAA006DA15F /* TypeProvider.swift */,
+				92AA2511226F1DAA006DA15F /* VM.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		92AA2517226F1DC2006DA15F /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				92AA2518226F1DE0006DA15F /* CollectionDataSource.swift */,
+				92AA2519226F1DE0006DA15F /* RegInfo.swift */,
+				92AA251B226F1DE0006DA15F /* SizeInfo.swift */,
+				92AA251A226F1DE0006DA15F /* ValueInfo.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		92AA2522226F21EB006DA15F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				92AA2523226F21FD006DA15F /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		92AA2525226F2216006DA15F /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				92AA2526226F2227006DA15F /* UICollectionView.swift */,
+				92AA2527226F2227006DA15F /* UICollectionViewCell.swift */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		92AA252A226F223D006DA15F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				92AA252B226F224F006DA15F /* UIViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		92AA252F226F3EBA006DA15F /* Reactive+Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				92AA2543226F4291006DA15F /* UIKit */,
+				92AA2532226F3ED9006DA15F /* Collection+Functional.swift */,
+				92AA2537226F3ED9006DA15F /* Future+ReactiveKit.swift */,
+				92AA2536226F3ED9006DA15F /* PhotoLibrary+Reactive.swift */,
+				92AA2533226F3ED9006DA15F /* SignalProtocol+AdvancedOperators.swift */,
+				92AA2531226F3ED9006DA15F /* SignalProtocol+call.swift */,
+				92AA2535226F3ED9006DA15F /* SignalProtocol+with.swift */,
+				92AA2530226F3ED9006DA15F /* SignalProtocol+with.swift.tpl */,
+				92AA2534226F3ED9006DA15F /* SimpleSignalabe.swift */,
+				92AA2538226F3ED9006DA15F /* Value.swift */,
+			);
+			path = "Reactive+Advanced";
+			sourceTree = "<group>";
+		};
+		92AA2543226F4291006DA15F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				92AA254E226F42CB006DA15F /* Animations */,
+				92AA2544226F42AE006DA15F /* NSLayoutconstraint+Reactive.swift */,
+				92AA2547226F42AE006DA15F /* UICollectionViewCell+Reactive.swift */,
+				92AA2546226F42AE006DA15F /* UILabel+Reactive.swift */,
+				92AA2545226F42AE006DA15F /* UIScrollView+Reactive.swift */,
+				92AA2548226F42AE006DA15F /* UIView+Reactive.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		92AA254E226F42CB006DA15F /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				92AA254F226F42E0006DA15F /* UIScrollView+Animations.swift */,
+				92AA2550226F42E0006DA15F /* UIView+Animations.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92AA24FE226E0511006DA15F /* Cartfile in Resources */,
+				92AA2539226F3ED9006DA15F /* SignalProtocol+with.swift.tpl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,9 +397,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92AA253A226F3ED9006DA15F /* SignalProtocol+call.swift in Sources */,
 				92AA24FC226E0276006DA15F /* Sequence+Nearest.swift in Sources */,
 				92AA24FA226E0276006DA15F /* Associated.swift in Sources */,
+				92AA2516226F1DAA006DA15F /* IDVM.swift in Sources */,
+				92AA2515226F1DAA006DA15F /* VM.swift in Sources */,
+				92AA254C226F42AE006DA15F /* UICollectionViewCell+Reactive.swift in Sources */,
+				92AA2552226F42E0006DA15F /* UIView+Animations.swift in Sources */,
+				92AA253F226F3ED9006DA15F /* PhotoLibrary+Reactive.swift in Sources */,
+				92AA2540226F3ED9006DA15F /* Future+ReactiveKit.swift in Sources */,
+				92AA2524226F21FD006DA15F /* Router.swift in Sources */,
+				92AA251F226F1DE0006DA15F /* SizeInfo.swift in Sources */,
+				92AA2528226F2227006DA15F /* UICollectionView.swift in Sources */,
+				92AA251C226F1DE0006DA15F /* CollectionDataSource.swift in Sources */,
+				92AA2541226F3ED9006DA15F /* Value.swift in Sources */,
+				92AA254D226F42AE006DA15F /* UIView+Reactive.swift in Sources */,
+				92AA253C226F3ED9006DA15F /* SignalProtocol+AdvancedOperators.swift in Sources */,
+				92AA252E226F2270006DA15F /* BoarError.swift in Sources */,
+				92AA2529226F2227006DA15F /* UICollectionViewCell.swift in Sources */,
+				92AA2514226F1DAA006DA15F /* TypeProvider.swift in Sources */,
 				92AA24FB226E0276006DA15F /* Container+value.swift in Sources */,
+				92AA251E226F1DE0006DA15F /* ValueInfo.swift in Sources */,
+				92AA2549226F42AE006DA15F /* NSLayoutconstraint+Reactive.swift in Sources */,
+				92AA251D226F1DE0006DA15F /* RegInfo.swift in Sources */,
+				92AA2551226F42E0006DA15F /* UIScrollView+Animations.swift in Sources */,
+				92AA253D226F3ED9006DA15F /* SimpleSignalabe.swift in Sources */,
+				92AA2513226F1DAA006DA15F /* SelfAssembly.swift in Sources */,
+				92AA253B226F3ED9006DA15F /* Collection+Functional.swift in Sources */,
+				92AA252C226F224F006DA15F /* UIViewController.swift in Sources */,
+				92AA254A226F42AE006DA15F /* UIScrollView+Reactive.swift in Sources */,
+				92AA254B226F42AE006DA15F /* UILabel+Reactive.swift in Sources */,
+				92AA253E226F3ED9006DA15F /* SignalProtocol+with.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

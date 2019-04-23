@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92AA24E6226E01B5006DA15F /* ReaktiveBoar_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AA24DC226E01B4006DA15F /* ReaktiveBoar_iOS.framework */; };
+		92AA24E6226E01B5006DA15F /* ReaktiveBoar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AA24DC226E01B4006DA15F /* ReaktiveBoar.framework */; };
 		92AA24ED226E01B5006DA15F /* ReaktiveBoar.h in Headers */ = {isa = PBXBuildFile; fileRef = 92AA24DF226E01B4006DA15F /* ReaktiveBoar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92AA24FA226E0276006DA15F /* Associated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA24F7226E0276006DA15F /* Associated.swift */; };
 		92AA24FB226E0276006DA15F /* Container+value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA24F8226E0276006DA15F /* Container+value.swift */; };
@@ -31,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		92AA24DC226E01B4006DA15F /* ReaktiveBoar_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReaktiveBoar_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AA24DC226E01B4006DA15F /* ReaktiveBoar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReaktiveBoar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AA24DF226E01B4006DA15F /* ReaktiveBoar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaktiveBoar.h; sourceTree = "<group>"; };
 		92AA24E0226E01B5006DA15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92AA24E5226E01B5006DA15F /* ReaktiveBoarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReaktiveBoarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92AA24E6226E01B5006DA15F /* ReaktiveBoar_iOS.framework in Frameworks */,
+				92AA24E6226E01B5006DA15F /* ReaktiveBoar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 		92AA24DD226E01B4006DA15F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92AA24DC226E01B4006DA15F /* ReaktiveBoar_iOS.framework */,
+				92AA24DC226E01B4006DA15F /* ReaktiveBoar.framework */,
 				92AA24E5226E01B5006DA15F /* ReaktiveBoarTests.xctest */,
 			);
 			name = Products;
@@ -160,7 +160,7 @@
 			);
 			name = "ReaktiveBoar-iOS";
 			productName = ReaktiveBoar;
-			productReference = 92AA24DC226E01B4006DA15F /* ReaktiveBoar_iOS.framework */;
+			productReference = 92AA24DC226E01B4006DA15F /* ReaktiveBoar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		92AA24E4226E01B5006DA15F /* ReaktiveBoarTests */ = {
@@ -410,7 +410,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.boar.ReaktiveBoar;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ReaktiveBoar;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -441,7 +441,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.boar.ReaktiveBoar;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ReaktiveBoar;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
